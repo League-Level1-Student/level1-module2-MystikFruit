@@ -32,14 +32,31 @@ class Minion {
 	String Color;
 	String master;
 
+	String getName() {
+		return name;
+	}
+
+	int getEyes() {
+		return eyes;
+	}
+
+	String getColor() {
+		return Color;
+	}
+
+	String getMaster() {
+		return master;
+	}
+
+	void setMaster(String master) {
+		this.master = master;
+	}
 	Minion(String name, int eyes, String color, String master) {
 		this.name = name;
 		this.eyes = eyes;
 		this.Color = color;
 		this.master = master;
-		
-			
-		}
+
 	}
 }
 
